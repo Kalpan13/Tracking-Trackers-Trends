@@ -17,7 +17,7 @@ For Linux : Make sure the path to chromdriver is in `/usr/lib/chromium-browser/c
 
 **Step 3** Install [Browsermob Proxy](https://bmp.lightbody.net/). *Note* : It is already added in the repo. 
 
-**Step 4** Run `HAR-Capture.py` . The file takes input from `Wayback-data-top-2000.csv` which contains the URLs of Wayback Machine. 
+**Step 4** Run `HAR-Capture.py` . The file takes input from `Wayback-data.csv` which contains the URLs of Wayback Machine. 
 
 > *Note* : As running selenium webdriver for multiple websites sometimes results in a memory leak, a Docker container can also be used to run this file. Dockerfile for the Docker build is added in the repo. Make sure you have installed `chromedriver` before running the Docker.  
 To build Docker image : `docker build .`
