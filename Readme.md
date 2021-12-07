@@ -36,5 +36,5 @@ To run Docker image : `docker run <image_id>`
 |HAR-Capture.py | Create HAR files from websites in `Wayback-data.csv`|
 |Dockerfile| Docker Image file for running HAR-Capture inside Docker Container|
 |Plots | Contains a few of the plots used in Presentation and report.|
-|Trends | Yearwise Tracker lists output of trackers detected in the website|
+|trends | Yearwise Tracker lists output of trackers detected in the website|
 |browsermob-proxy-2.1.4| Used for running Proxy Server|
