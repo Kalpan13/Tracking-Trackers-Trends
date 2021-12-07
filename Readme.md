@@ -35,6 +35,7 @@ To run Docker image : `docker run <image_id>`
 |Website_Categorization.csv| Categorization of selected websites using [MacAfee trusted source](https://www.trustedsource.org/en/feedback/url)|
 |HAR-Capture.py | Create HAR files from websites in `Wayback-data.csv`|
 |Dockerfile| Docker Image file for running HAR-Capture inside Docker Container|
-|Plots | Contains a few of the plots used in Presentation and report.|
+|plots | Contains a few of the plots used in Presentation and report.|
 |trends | Yearwise Tracker lists output of trackers detected in the website|
 |browsermob-proxy-2.1.4| Used for running Proxy Server|
+|tracker_list_parser.py | Parse HAR file for given tracker list|
